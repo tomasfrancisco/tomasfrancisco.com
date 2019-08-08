@@ -1,27 +1,20 @@
-import React from "react"
-import { Link } from "gatsby"
-import { css } from "@emotion/core"
-
-import Layout from "src/components/layout"
-import Image from "src/components/image"
-import SEO from "src/components/seo"
+import css from "@emotion/css"
+import * as React from "react"
+import { Hero } from "src/components/atoms/hero/hero"
+import { SEO } from "src/components/atoms/seo"
+import { RootLayout } from "src/components/layout/root-layout"
+import { Navbar } from "src/components/organisms/navbar"
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div
+  <RootLayout>
+    <SEO />
+    <Navbar />
+    <Hero
       css={css`
-        max-width: 300px;
-        margin-bottom: 1.45rem;
+        padding-top: 100px;
       `}
-    >
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+    />
+  </RootLayout>
 )
 
 export default IndexPage

@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@emotion/core": "10.0.10",
+    "debounce": "^1.2.0",
     "gatsby": "^2.9.11",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-emotion": "4.0.7",
@@ -16,15 +17,23 @@
     "gatsby-plugin-typescript": "2.0.15",
     "gatsby-source-filesystem": "^2.0.43",
     "gatsby-transformer-sharp": "^2.1.21",
+    "ionicons": "^4.6.2",
+    "polished": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-textarea-autosize": "^7.1.0"
   },
   "devDependencies": {
     "gatsby-plugin-root-import": "2.0.5",
     "prettier": "^1.18.2"
   },
-  "keywords": ["emotion", "react", "typescript", "gatsby"],
+  "keywords": [
+    "emotion",
+    "react",
+    "typescript",
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
