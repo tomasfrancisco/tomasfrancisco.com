@@ -1,9 +1,9 @@
-import css from "@emotion/css"
-import * as React from "react"
-import { Hero } from "src/components/atoms/hero/hero"
-import { SEO } from "src/components/atoms/seo"
-import { RootLayout } from "src/components/layout/root-layout"
-import { Navbar } from "src/components/organisms/navbar"
+import css from "@emotion/css";
+import * as React from "react";
+import { Hero } from "src/components/atoms/hero/hero";
+import { SEO } from "src/components/atoms/seo";
+import { RootLayout } from "src/components/layout/root-layout";
+import { Navbar } from "src/modules";
 
 const IndexPage = () => (
   <RootLayout>
@@ -15,6 +15,6 @@ const IndexPage = () => (
       `}
     />
   </RootLayout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
